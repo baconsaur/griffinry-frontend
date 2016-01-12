@@ -33,6 +33,43 @@ body, html {
 	}
 }
 
+.signup-button {
+	display: block;
+	margin: 1rem auto;
+	width: 20%;
+	text-align: center;
+	background-color: #046d8b;
+	border-radius: 10px;	
+	font-size: 3rem;
+	padding: 0.5rem;
+	color: #e9e9e4;
+	text-decoration: none;
+}
+
+.signup-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	p {
+		text-align:center;
+	}
+}
+
+.signup-form {
+	margin-right: 3rem;
+	display: flex;
+	flex-direction: column;
+	input {
+		margin: 0.2rem 0;
+	}
+}
+
+.visible {
+	margin-top: 1rem;
+	display: block;
+	text-align: center;
+}
+
 body {
 	background-color: #e9e9e4;
 }
@@ -58,18 +95,6 @@ main {
 	align-items: center;
 	header img {
 		width: 100%;
-	}
-	a {
-		display: block;
-		margin: 1rem auto;
-		width: 20%;
-		text-align: center;
-		background-color: #046d8b;
-		border-radius: 10px;	
-		font-size: 3rem;
-		padding: 0.5rem;
-		color: #e9e9e4;
-		text-decoration: none;
 	}
 	ul {
 		margin: 0 auto;
